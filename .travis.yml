@@ -4,5 +4,5 @@ node_js:
 env:
   - PROJ_DIR=dispatch-console
   - PROJ_DIR=dispatch-server
-script: cd $PROJ_DIR && npm install && npm test
+script: cd $PROJ_DIR && npm ci install && npm ci test
 
